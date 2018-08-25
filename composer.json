@@ -1,0 +1,13 @@
+{
+    "require": {
+        "slim/slim": "^3.7",
+        "illuminate/database": "^5.3",
+        "firebase/php-jwt": "^5.0",
+        "vlucas/phpdotenv": "^2.5"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "App\\" : "app"
+        }
+    }
+}
